@@ -1,0 +1,11 @@
+[Character]
+name: March 7th
+baseHP: 1058.4
+baseDEF: 573.3
+baseATK: 511.56
+
+[Character]
+name: Dan Heng
+baseHP: 987.6
+baseDEF: 455.2
+baseATK: 612.9

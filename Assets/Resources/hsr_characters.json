@@ -1,0 +1,322 @@
+[
+  {
+    "No": "1",
+    "Role": "DPS",
+    "Name": "Clara",
+    "Combat Types": "Phy",
+    "ATK": "737.35",
+    "HP": "1242",
+    "SPD": "90",
+    "Energy": "110"
+  },
+  {
+    "No": "2",
+    "Role": "DPS",
+    "Name": "Blade",
+    "Combat Types": "Wind",
+    "ATK": "543.31",
+    "HP": "1358",
+    "SPD": "97",
+    "Energy": "130"
+  },
+  {
+    "No": "3",
+    "Role": "DPS",
+    "Name": "Jingliu",
+    "Combat Types": "Ice",
+    "ATK": "679.14",
+    "HP": "1436",
+    "SPD": "96",
+    "Energy": "140"
+  },
+  {
+    "No": "4",
+    "Role": "DPS",
+    "Name": "Dan Hen IL",
+    "Combat Types": "Imaginary",
+    "ATK": "698.54",
+    "HP": "1242",
+    "SPD": "102",
+    "Energy": "140"
+  },
+  {
+    "No": "5",
+    "Role": "DPS",
+    "Name": "Firefly",
+    "Combat Types": "Fire",
+    "ATK": "523.91",
+    "HP": "815",
+    "SPD": "104",
+    "Energy": "240"
+  },
+  {
+    "No": "6",
+    "Role": "DPS",
+    "Name": "Trailblazer",
+    "Combat Types": "Phy",
+    "ATK": "620.93",
+    "HP": "1203",
+    "SPD": "100",
+    "Energy": "120"
+  },
+  {
+    "No": "7",
+    "Role": "DPS",
+    "Name": "Arlan",
+    "Combat Types": "Lighting",
+    "ATK": "599.76",
+    "HP": "1200",
+    "SPD": "102",
+    "Energy": "110"
+  },
+  {
+    "No": "8",
+    "Role": "DPS",
+    "Name": "Hook",
+    "Combat Types": "FIre",
+    "ATK": "617.4",
+    "HP": "1341",
+    "SPD": "94",
+    "Energy": "120"
+  },
+  {
+    "No": "9",
+    "Role": "DPS",
+    "Name": "Xueyi",
+    "Combat Types": "Quantum",
+    "ATK": "599.76",
+    "HP": "1058",
+    "SPD": "103",
+    "Energy": "120"
+  },
+  {
+    "No": "10",
+    "Role": "DPS",
+    "Name": "Misha",
+    "Combat Types": "Ice",
+    "ATK": "599.76",
+    "HP": "1270",
+    "SPD": "96",
+    "Energy": "100"
+  },
+  {
+    "No": "11",
+    "Role": "DPS",
+    "Name": "Seele",
+    "Combat Types": "Quantum",
+    "ATK": "640.33",
+    "HP": "931",
+    "SPD": "115",
+    "Energy": "120"
+  },
+  {
+    "No": "12",
+    "Role": "DPS",
+    "Name": "Topaz",
+    "Combat Types": "Fire",
+    "ATK": "620.93",
+    "HP": "931",
+    "SPD": "110",
+    "Energy": "130"
+  },
+  {
+    "No": "13",
+    "Role": "DPS",
+    "Name": "Yanqing",
+    "Combat Types": "Ice",
+    "ATK": "679.14",
+    "HP": "893",
+    "SPD": "109",
+    "Energy": "140"
+  },
+  {
+    "No": "14",
+    "Role": "DPS",
+    "Name": "Dr.Ratio",
+    "Combat Types": "Imaginary",
+    "ATK": "776.16",
+    "HP": "1048",
+    "SPD": "103",
+    "Energy": "140"
+  },
+  {
+    "No": "15",
+    "Role": "DPS",
+    "Name": "Boothill",
+    "Combat Types": "Phy",
+    "ATK": "620.93",
+    "HP": "1203",
+    "SPD": "107",
+    "Energy": "115"
+  },
+  {
+    "No": "16",
+    "Role": "DPS",
+    "Name": "Dan Heng",
+    "Combat Types": "Wind",
+    "ATK": "546.84",
+    "HP": "882",
+    "SPD": "110",
+    "Energy": "100"
+  },
+  {
+    "No": "17",
+    "Role": "DPS",
+    "Name": "Sushang",
+    "Combat Types": "Phy",
+    "ATK": "564.48",
+    "HP": "917",
+    "SPD": "107",
+    "Energy": "120"
+  },
+  {
+    "No": "18",
+    "Role": "DPS",
+    "Name": "Himeko",
+    "Combat Types": "Fire",
+    "ATK": "756.76",
+    "HP": "1048",
+    "SPD": "96",
+    "Energy": "120"
+  },
+  {
+    "No": "19",
+    "Role": "DPS",
+    "Name": "Jing Yuan",
+    "Combat Types": "Lighting",
+    "ATK": "698.54",
+    "HP": "1164",
+    "SPD": "99",
+    "Energy": "130"
+  },
+  {
+    "No": "20",
+    "Role": "DPS",
+    "Name": "Argenti",
+    "Combat Types": "Phy",
+    "ATK": "737.35",
+    "HP": "1048",
+    "SPD": "103",
+    "Energy": "180"
+  },
+  {
+    "No": "21",
+    "Role": "DPS",
+    "Name": "Jade",
+    "Combat Types": "Quantum",
+    "ATK": "659.74",
+    "HP": "1087",
+    "SPD": "103",
+    "Energy": "140"
+  },
+  {
+    "No": "22",
+    "Role": "DPS",
+    "Name": "Herta",
+    "Combat Types": "Ice",
+    "ATK": "582.12",
+    "HP": "953",
+    "SPD": "100",
+    "Energy": "110"
+  },
+  {
+    "No": "23",
+    "Role": "DPS",
+    "Name": "Serval",
+    "Combat Types": "Lighting",
+    "ATK": "652.68",
+    "HP": "917",
+    "SPD": "104",
+    "Energy": "100"
+  },
+  {
+    "No": "24",
+    "Role": "DPS",
+    "Name": "Qingque",
+    "Combat Types": "Quantum",
+    "ATK": "652.68",
+    "HP": "1023",
+    "SPD": "98",
+    "Energy": "140"
+  },
+  {
+    "No": "25",
+    "Role": "DPS",
+    "Name": "Welt",
+    "Combat Types": "Imaginary",
+    "ATK": "620.93",
+    "HP": "1125",
+    "SPD": "102",
+    "Energy": "100"
+  },
+  {
+    "No": "26",
+    "Role": "DPS",
+    "Name": "Kafka",
+    "Combat Types": "Lighting",
+    "ATK": "679.14",
+    "HP": "1087",
+    "SPD": "100",
+    "Energy": "120"
+  },
+  {
+    "No": "27",
+    "Role": "DPS",
+    "Name": "Siver Wolf",
+    "Combat Types": "Quantum",
+    "ATK": "640.33",
+    "HP": "1048",
+    "SPD": "107",
+    "Energy": "110"
+  },
+  {
+    "No": "28",
+    "Role": "DPS",
+    "Name": "Black Swan",
+    "Combat Types": "Wind",
+    "ATK": "659.74",
+    "HP": "1087",
+    "SPD": "102",
+    "Energy": "120"
+  },
+  {
+    "No": "29",
+    "Role": "DPS",
+    "Name": "Pela",
+    "Combat Types": "Ice",
+    "ATK": "546.84",
+    "HP": "988",
+    "SPD": "105",
+    "Energy": "110"
+  },
+  {
+    "No": "30",
+    "Role": "DPS",
+    "Name": "Sampo",
+    "Combat Types": "Wind",
+    "ATK": "617.4",
+    "HP": "1023",
+    "SPD": "102",
+    "Energy": "120"
+  },
+  {
+    "No": "31",
+    "Role": "DPS",
+    "Name": "Luka",
+    "Combat Types": "Phy",
+    "ATK": "582.12",
+    "HP": "917",
+    "SPD": "103",
+    "Energy": "130"
+  },
+  {
+    "No": "32",
+    "Role": "DPS",
+    "Name": "Guinafen",
+    "Combat Types": "Fire",
+    "ATK": "582.12",
+    "HP": "882",
+    "SPD": "106",
+    "Energy": "120"
+  }
+]
