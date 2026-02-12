@@ -40,19 +40,19 @@ public class BattleStateMachine : MonoBehaviour
     public List<GameObject> HeroesToManage = new List<GameObject>();
     private HandleTurn HeroesChoice;
     public GameObject enemyButton;
-    public GameObject heroButton; // new prefab for selecting hero target
+    public GameObject heroButton; 
     public Transform Spacer;
 
     public GameObject AttackPanel;
     public GameObject EnemySelectPanel;
     public GameObject SkillPanel;
-    public GameObject HeroSelectPanel; // NEW
+    public GameObject HeroSelectPanel; 
 
     public Transform ActionSpacer;
     public Transform SkillSpacer;
     public Transform BackButtonSpacer;
     public Transform DecisionButtonSpacer;
-    public Transform HeroSpacer; // NEW (for hero buttons)
+    public Transform HeroSpacer; 
     public GameObject actionButton;
     public GameObject skillButton;
     public GameObject ultimateButton;
@@ -63,7 +63,7 @@ public class BattleStateMachine : MonoBehaviour
 
     private List<GameObject> atkBtns = new List<GameObject>();
     private List<GameObject> enemyBtns = new List<GameObject>();
-    private List<GameObject> heroBtns = new List<GameObject>(); // NEW
+    private List<GameObject> heroBtns = new List<GameObject>(); 
     private List<GameObject> backBtns = new List<GameObject>();
     private List<GameObject> decisionBtns = new List<GameObject>();
     private int currentUnitIndex = 0;
@@ -82,7 +82,7 @@ public class BattleStateMachine : MonoBehaviour
         AttackPanel.SetActive(false);
         EnemySelectPanel.SetActive(false);
         SkillPanel.SetActive(false);
-        HeroSelectPanel.SetActive(false); // ensure it's off
+        HeroSelectPanel.SetActive(false);
     }
     public void StartBattleAfterSelection()
     {
@@ -91,7 +91,7 @@ public class BattleStateMachine : MonoBehaviour
             HeroStateMachine hsm = heroGO.GetComponent<HeroStateMachine>();
             if (hsm.hero != null)
             {
-                hsm.CreateCharaPanel(); // PAKSA BUAT PANEL
+                hsm.CreateCharaPanel();
                 var floating = heroGO.GetComponentInChildren<UnitFloatingName>(true);
                 if (floating != null)
                     floating.Show();
@@ -293,7 +293,7 @@ public class BattleStateMachine : MonoBehaviour
     }
     void FillQueueList(List<GameObject> sortedUnits)
     {
-        QueueList.Clear(); // bersihkan dulu agar tidak dobel
+        QueueList.Clear();
 
         foreach (GameObject unit in sortedUnits)
         {
@@ -426,7 +426,6 @@ public class BattleStateMachine : MonoBehaviour
         }
         else
         {
-            // For non-damage skill, still check skill point if required
             if (skillPoint.currentSkillPoints <= 0)
             {
                 Debug.Log("Skill Point tidak cukup!");
@@ -439,7 +438,6 @@ public class BattleStateMachine : MonoBehaviour
         HeroesChoice.Type = "Hero";
         HeroesChoice.choosenAttack = choosenSkillAttack;
 
-        // Decide which target panel to open based on skill targetType
         if (choosenSkillAttack.targetType == BaseAttack.AttackTarget.Enemy)
         {
             SkillPanel.SetActive(false);
@@ -459,7 +457,6 @@ public class BattleStateMachine : MonoBehaviour
     {
         AttackPanel.SetActive(false);
         SkillPanel.SetActive(true);
-        // Create skill buttons according to role will happen when attack panel created
     }
 
     public void Input5() //back Button

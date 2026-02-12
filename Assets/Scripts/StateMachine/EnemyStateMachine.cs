@@ -257,7 +257,7 @@ public class EnemyStateMachine : MonoBehaviour
             // Membesarkan ukuran boss
             transform.localScale *= 1.4f;
 
-            // // Mengubah material menjadi merah terang
+            // 
             // var renderer = GetComponent<Renderer>();
             // if (renderer != null)
             // {

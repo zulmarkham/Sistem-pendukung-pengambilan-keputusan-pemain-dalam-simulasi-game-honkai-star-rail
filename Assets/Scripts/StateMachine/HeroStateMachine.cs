@@ -241,7 +241,7 @@ public class HeroStateMachine : MonoBehaviour
         hero.currentEnergy = Mathf.Min(hero.currentEnergy + energyGain, hero.energy);
         float remainingDamage = getDamageAmount;
 
-        // 1️⃣ Shield menyerap damage dulu
+        // 1Shield menyerap damage 
         if (hero.currentShield > 0)
         {
             if (hero.currentShield >= remainingDamage)
@@ -258,20 +258,20 @@ public class HeroStateMachine : MonoBehaviour
             }
         }
 
-        // 2️⃣ Sisa damage ke HP
+        // 
         if (remainingDamage > 0)
         {
             hero.currentHP -= remainingDamage;
         }
 
-        // 3️⃣ Clamp HP
+        // 
         if (hero.currentHP <= 0)
         {
             hero.currentHP = 0;
             currentState = TurnState.DEAD;
         }
 
-        // 4️⃣ Update UI
+        // 
         UpdateHeroPanel();
     }
 
@@ -298,7 +298,7 @@ public class HeroStateMachine : MonoBehaviour
             allyHSM = BSM.PerformList[0].AttackersTarget.GetComponent<HeroStateMachine>();
         }
 
-        // ================= BASIC ATTACK =================
+        // BASIC ATTACK 
         if (chosenAttack == hero.Attacks[0])
         {
             switch (hero.role)
@@ -330,11 +330,10 @@ public class HeroStateMachine : MonoBehaviour
         }
         else
         {
-            // ================= ULTIMATE =================
+            //  ULTIMATE 
             if (isUltimate)
             {
-                // 🔧 FIX INTI BUG:
-                // jika ultimate bukan DPS, pastikan enemy TIDAK dipakai
+                
                 if (hero.role != BaseHero.roleType.DPS)
                 {
                     enemySM = null;
@@ -412,7 +411,7 @@ public class HeroStateMachine : MonoBehaviour
                 return;
             }
 
-            // ================= SKILL =================
+            //  SKILL 
             switch (chosenAttack.category)
             {
                 case BaseAttack.AttackCategory.Damage:

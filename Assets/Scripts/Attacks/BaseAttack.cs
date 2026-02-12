@@ -10,7 +10,6 @@ public class BaseAttack : MonoBehaviour
     public bool isUltimate;
 
 
-    // ===== added =====
     public enum AttackCategory
     {
         Damage,

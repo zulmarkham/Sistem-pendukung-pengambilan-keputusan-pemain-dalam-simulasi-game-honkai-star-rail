@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class HeavyAttack : BaseAttack
 {
-    // Start is called before the first frame update
     public HeavyAttack()
     {
         attackName = "HeavyAttack";
